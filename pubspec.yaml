@@ -1,0 +1,106 @@
+name: grocery_onlineapp
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  get: ^4.1.4
+  fluttertoast: ^8.0.7
+  intl: ^0.17.0
+  pin_input_text_field: ^4.0.0
+  flutter_swiper: ^1.1.6
+  percent_indicator: ^3.0.1
+  flushbar: ^1.10.4
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.8
+  firebase_analytics: ^8.3.4
+  firebase_core: ^1.8.0
+  google_sign_in: ^5.2.1
+  firebase_auth: ^3.1.4
+  connectivity_plus: ^2.0.2
+  flutter_facebook_auth: ^3.5.3
+  dio: ^4.0.1
+  permission_handler: ^8.2.6
+  image_picker: ^0.8.4+4
+  image_cropper: ^1.4.1
+  flutter_image_compress: ^1.1.0
+  email_validator: ^2.0.1
+  mobile_number: ^1.0.4
+  otp_autofill: 1.0.2
+  sms_autofill: 2.1.2
+  material_design_icons_flutter: ^5.0.6295
+  geolocator: ^7.7.1
+  geocoding: ^2.0.1
+  cached_network_image: ^3.1.0+1
+  shimmer: ^2.0.0
+  font_awesome_flutter: ^9.2.0
+  date_time_picker: ^2.1.0
+  razorpay_flutter: ^1.2.7
+  flutter_paystack: ^1.0.5+1
+  carousel_slider: ^4.0.0
+  dots_indicator: ^2.0.0
+  firebase_messaging: ^11.1.0
+  flutter_local_notifications: ^9.1.4
+  http: ^0.13.4
+  path_provider: ^2.0.7
+  flutter_html: ^2.1.5
+  url_launcher: ^6.0.15
+  google_maps_flutter: ^2.1.1
+  flutter_mapbox_autocomplete: ^2.0.0
+  mapbox_search: ^3.0.1+1
+  flutter_rating_bar: ^4.0.0
+  share_plus: 3.0.4
+  photo_view: ^0.13.0
+  flutter_polyline_points: ^1.0.0
+  badges: ^2.0.2
+  flutter_barcode_scanner: ^2.0.0
+  sign_in_with_apple: ^3.3.0
+  crypto: ^3.0.1
+  cloud_firestore: ^2.5.4
+  firebase_storage: ^10.2.0
+  timelines: ^0.1.0
+  readmore: 2.1.0
+  marquee: ^2.2.0
+  flutter_speed_dial: ^5.0.0+1
+  provider: any
+ 
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  change_app_package_name: ^1.0.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/icon.png"
+
+
+flutter:
+
+  generate: true
+  uses-material-design: true
+
+  assets:
+     - assets/
+     - assets/images/
+
+
+  fonts:
+     - family: Google-Sans
+       fonts:
+         - asset: assets/fonts/ProductSans-Regular.ttf
