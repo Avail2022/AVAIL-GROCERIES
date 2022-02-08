@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avail Service</string>
+    <string name="facebook_app_id">416422756680914</string>
+  <string name="fb_login_protocol_scheme">fb416422756680914</string>
+</resources>
